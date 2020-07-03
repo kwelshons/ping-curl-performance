@@ -11,7 +11,7 @@ except ImportError:
 buffer = BytesIO()
 
 c = pycurl.Curl()
-c.setopt(c.URL, 'https://kwelshons.lab.gpcloudservice.com/')
+c.setopt(c.URL, 'https://www.paloaltonetworks.com/')
 c.setopt(pycurl.SSL_VERIFYPEER, 0)
 c.setopt(c.WRITEDATA, buffer)
 c.perform()
